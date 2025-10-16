@@ -25,8 +25,10 @@ A simple Streamlit web app that performs **sentiment analysis** on Yelp-style te
 
 
 ## ▶️ How to Run Locally
-1. Activate your virtual environment:
-     .venv\Scripts\activate
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bayanAraaf/deploy_NLP
+   cd imdb-sentiment-app
 
 2. Install dependensi:
      pip install -r requirements.txt
@@ -35,8 +37,6 @@ A simple Streamlit web app that performs **sentiment analysis** on Yelp-style te
      streamlit run app.py
 
 
-## 📚 Model Info
-Model dilatih menggunakan data review Yelp dengan TF-IDF vectorizer dan Logistic Regression. File 
 ## 📚 Model Info
 The model was trained on Yelp review data using a TF-IDF vectorizer and Logistic Regression classifier. Both the model and vectorizer are saved as `.joblib` files and loaded directly in `app.py`.
 
