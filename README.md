@@ -20,3 +20,5 @@ Model dilatih menggunakan data review Yelp dengan TF-IDF vectorizer dan Logistic
 ## ✍️ Author
 Bayan — [LinkedIn](https://www.linkedin.com/in/your-profile)  
 Feel free to fork, star, or contribute!
+## Link deploy
+https://deploy-vfapp589zx4emh6rdt8w9sw.streamlit.app/
